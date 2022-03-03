@@ -1,0 +1,24 @@
+{
+  "name": "mern-api",
+  "homepage": "https://simransharma25.github.io/nodejs-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/app.js -e js,hbs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "bootstrap": "^5.1.3",
+    "express": "^4.17.2",
+    "gh-pages": "^3.2.3",
+    "hbs": "^4.2.0",
+    "jquery": "^3.6.0",
+    "mongoose": "^6.2.1",
+    "nodemon": "^2.0.15",
+    "validator": "^13.7.0"
+  }
+}

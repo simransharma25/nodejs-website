@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Document</title>
+</head>
+<body>
+   {{>navbar}}
+{{!-- hero section start--}}
+   <div class="container-fluid mt-5">
+       <div class="row">
+           <div class="col-md-10 col-sm-12 mx-auto">
+               <div class="row">
+                   <div class="col-md-6 col-12 hero-text order-md-0 order-1 d-flex justify-content-center align-items-start flex-column">
+                       <h1>WE WILL HELP YOU TO</h1>
+                       <h1>GROW YOUR BUSINESS</h1>
+                       <P>We Are The Team of <span class="bold-style">Professional Developer</span></P>
+                       <button class="btn-style btn-primary">Read More</button>
+                   </div>
+                   {{!-- right side --}}
+                   <div class="col-md-6 col-12 hero-text order-md-1 order-0">
+                       <figure>
+                           <img src="images/growth.svg" alt="herosection_images">
+                       </figure>
+                   </div>
+
+               </div>
+
+           </div>
+       </div>
+   </div>
+{{!--hero section ends--}}
+   {{!--about us start--}}
+    {{>about}}
+{{!--about us end--}}
+{{!-- our services start--}}
+    {{>service}}
+{{!-- our services end--}}
+
+{{!-- our maps start--}}
+    {{>maps}}
+{{!-- our maps end--}}
+
+{{!-- our contact us start--}}
+    {{>contact}}
+{{!-- our contact us end--}}
+
+
+    <script src="../jq/jquery.js" type="text/javascript"></script>
+    <script src="../js/bootstrap.js" type="text/javascript"></script>
+</body>
+</html>
